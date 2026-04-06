@@ -109,6 +109,7 @@ global without sharing class Logger {
         logRecord.Component_Name__c = componentName;
         logRecord.Type__c = typex;
         logRecord.Event_Level__c = eventLevel;
+       // ogRecord.Event_Level__c = eventLevel;
         return logRecord;
     }
     
